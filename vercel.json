@@ -1,0 +1,4 @@
+{
+  "cleanUrls": true,
+  "functions": { "api/rpc.js": { "maxDuration": 15 } }
+}

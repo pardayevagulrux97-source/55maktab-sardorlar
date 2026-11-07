@@ -1,0 +1,23 @@
+55-MAKTAB SARDORLARI - Vercel'ga joylash (3 qadam)
+
+Papkada: index.html, api/rpc.js, vercel.json, package.json
+HAMMASI bir papkada bo'lishi kerak ("api" papkasi ham).
+
+1) GITHUB'GA YUKLANG
+   - github.com -> New repository (nomi: maktab55) -> "uploading an existing file"
+   - Shu papkadagi hamma narsani (api papkasi bilan) sudrab tashlang -> Commit changes.
+
+2) VERCEL'GA ULANG
+   - vercel.com -> Add New -> Project -> maktab55 repozitoriyasini tanlang
+   - Framework Preset: Other. Boshqa hech narsani o'zgartirmang -> Deploy.
+
+3) BAZANI ULANG (bepul)
+   - Vercel'da loyihangizni oching -> "Storage" bo'limi -> Create Database
+   - "Upstash" (Redis) ni tanlang -> Free reja -> loyihaga "Connect" qiling.
+   - Keyin "Deployments" -> oxirgi deploy yonidagi ... -> Redeploy.
+
+Tayyor! Sayt manzilini oching:
+   Login:  55_aqwer_122a
+   Parol:  55-s.d.r.ash.
+
+Kirgach pastdagi "Hisoblar" tugmasi orqali boshqalarga login-parol yarating.
